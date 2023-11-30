@@ -14,6 +14,7 @@ The solution consists of the following components:
       - **`Display.cs` (Class):** Contains the logic for displaying the hanged man.
       - **`Gameplay.cs` (Class):** Manages the gameplay flow and user interactions.
       - **`Word.cs` (Class):** Handles word selection, word attempts, and letter tracking.
+      -  **`WordOptions.cs` (Class):** Centralize the word options dictionary with corresponding themes.
     - **`Person` (Folder)**
       - **`Player.cs` (Class):** Represents the player with methods to handle player information.
     - **`Program.cs` (Class):** Contains the main method to start the application.
