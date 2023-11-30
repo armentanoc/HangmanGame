@@ -15,7 +15,7 @@ namespace hangmanGame.main.Person
                 name = AskForName();
                 if (!IsNameValid(name))
                 {
-                    Console.WriteLine("Nome inválido. Por favor, digite um nome sem dígitos.\n");
+                    Console.WriteLine("Nome inválido. Por favor, digite seu nome (a-z/A-Z).\n");
                 }
             } while (!IsNameValid(name));
         }
@@ -33,7 +33,6 @@ namespace hangmanGame.main.Person
 
         string AskForName()
         {
-            Console.WriteLine("-----Jogo da Forca-----");
             Console.WriteLine("\nInforme o seu nome: ");
             return Console.ReadLine();
         }
