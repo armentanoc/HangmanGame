@@ -8,6 +8,8 @@ namespace hangmanGame.main
         static void Main(string[] args)
         {
             var player = new Player();
+
+            PrintTitle();
             player.SetName();
             RunGameMenu(player);
         }
@@ -55,6 +57,10 @@ namespace hangmanGame.main
                     RunGameMenu(player);
                     break;
             }
+        }
+        static void PrintTitle()
+        {
+            Console.WriteLine("-----Jogo da Forca-----");
         }
     }
 }
