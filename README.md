@@ -8,15 +8,15 @@ This is a simple console-based Hangman Game implemented in C#.
 
 The solution consists of the following components:
 
-- **hangmanGame (Solution):**
-  - **hangmanGame.main (Project):**
-    - **Game (Folder):**
-      - **Display (Class):** Contains the logic for displaying the hanged man.
-      - **Gameplay (Class):** Manages the gameplay flow and user interactions.
-      - **Word (Class):** Handles word selection, word attempts, and letter tracking.
-    - **Person (Folder):**
-      - **Player (Class):** Represents the player with methods to handle player information.
-    - **Program (Class):** Contains the main method to start the application.
+**`hangmanGame` (Solution)**
+  - **`hangmanGame.main` (Project)**
+    - **`Game` (Folder):**
+      - **`Display.cs` (Class):** Contains the logic for displaying the hanged man.
+      - **`Gameplay.cs` (Class):** Manages the gameplay flow and user interactions.
+      - **`Word.cs` (Class):** Handles word selection, word attempts, and letter tracking.
+    - **`Person` (Folder)**
+      - **`Player.cs` (Class):** Represents the player with methods to handle player information.
+    - **`Program.cs` (Class):** Contains the main method to start the application.
 
 ## How to Run the Game 🚀
 
