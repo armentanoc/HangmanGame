@@ -35,3 +35,7 @@ The solution consists of the following components:
 5. Keep guessing until you either complete the word or reach the maximum allowed attempts.
 
 Enjoy the game! 🎉
+
+## Demo Video
+
+https://github.com/armentanoc/HangmanGame/assets/88147887/0767ba59-8014-4c77-83d3-c06c76c6490c
